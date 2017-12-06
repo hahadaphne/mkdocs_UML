@@ -1,0 +1,26 @@
+site_name: Mkdocs with UML charts
+pages:
+  - Home: index.md
+  - UML: uml.md
+theme:
+    #name: readthedocs
+    name: mkdocs
+    custom_dir: theme/
+repo_url: https://github.com/hahadaphne/mkdocs_UML
+repo_name: null
+extra_javascript:
+    - https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.1.0/mermaid.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js
+    - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js
+    - js/umlconvert.js
+extra_css:
+    - https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.10/mermaid.min.css
+markdown_extensions:
+    - pymdownx.superfences:
+        custom_fences: [
+            {name: flow, class: uml-flowchart}
+           ,{name: sequence, class: uml-sequence-diagram}
+           ,{name: mermaid, class: mermaid}
+        ]
