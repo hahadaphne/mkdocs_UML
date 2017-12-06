@@ -19,4 +19,4 @@ According to [MkDocs的使用-甘特图](https://my.oschina.net/u/3465063/blog/8
         index.md        # The documentation homepage.
         uml.md          # Some UML chart testing page.
     js/
-        umlconvert.js   # Integrate external js. Can initial or do some settings hsere.
+        umlconvert.js   # Integrate external js. Can initial or do some settings here.
