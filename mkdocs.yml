@@ -3,8 +3,8 @@ pages:
   - Home: index.md
   - UML: uml.md
 theme:
-    #name: readthedocs
-    name: mkdocs
+    name: readthedocs
+    #name: mkdocs
     custom_dir: theme/
 repo_url: https://github.com/hahadaphne/mkdocs_UML
 repo_name: null
@@ -16,7 +16,7 @@ extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js
     - js/umlconvert.js
 extra_css:
-    - https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.0.10/mermaid.min.css
+    - css/mermaid.min.css
 markdown_extensions:
     - pymdownx.superfences:
         custom_fences: [
